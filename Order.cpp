@@ -17,12 +17,7 @@ double Order::getTotalCost() const {
 	return total;
 }
 
-void Order::writeToFile(ofstream& outFile) const {
-	outFile << distributor.getName() << endl;
-	for (const auto& t : textbooks) {
-		outFile << t.getTitle() << endl;
-	}
-}
+
 
 std::ostream& operator<<(std::ostream& os, const Order& order) {
 	os << "Distributor Information:" << endl;

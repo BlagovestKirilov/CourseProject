@@ -14,7 +14,6 @@ public:
 	Order(Distributor d);
 	void addTextbook(Textbook t);
 	double getTotalCost() const;
-	void writeToFile(std::ofstream& outFile) const;
 	friend std::ostream& operator<<(std::ostream& os, const Order& order);
 };
 
