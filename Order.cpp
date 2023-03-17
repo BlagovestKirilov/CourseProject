@@ -25,7 +25,7 @@ std::ostream& operator<<(std::ostream& os, const Order& order) {
 	os << "Address: " << order.distributor.getAddress() << endl;
 	os << "Phone Number: " << order.distributor.getPhoneNumber() << endl;
 	os << "Order Information:" << endl;
-	os << "Total Cost: $" << std::fixed << setprecision(2) << order.getTotalCost() << endl;
+	os << "Total Cost: " << std::fixed << setprecision(2) << order.getTotalCost() << " lv." << endl;
 	os << "Textbooks:" << endl;
 	for (auto t : order.textbooks) {
 		os << "Title: " << t.getTitle() << endl;

@@ -128,12 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddingClass.cpp" />
     <ClCompile Include="CourseProject.cpp" />
     <ClCompile Include="Distributor.cpp" />
     <ClCompile Include="Order.cpp" />
     <ClCompile Include="Textbook.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddingClass.h" />
     <ClInclude Include="Distributor.h" />
     <ClInclude Include="Order.h" />
     <ClInclude Include="Textbook.h" />
